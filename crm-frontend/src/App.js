@@ -1,12 +1,16 @@
 import "./App.css";
-
-import { Button } from "react-bootstrap";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Mylogin from "./pages/Mylogin/Mylogin";
+import Homepage from "./pages/Homepage/Homepage";
 
 function App() {
   return (
-    <div className="App">
-      <Button>button</Button>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/login" element={<Mylogin />} />
+        <Route path="/" element={<Homepage />} />
+      </Routes>
+    </Router>
   );
 }
 
