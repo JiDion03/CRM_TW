@@ -1,13 +1,13 @@
 import React from "react";
-import "./homepage.css";
+import "./dashboard.css";
 import MyNavbar from "../../components/MyNavbar/MyNavbar";
-
-function Homepage() {
+function Dashboard() {
   return (
     <div>
       <MyNavbar></MyNavbar>
+      <h1>Dashboard</h1>
     </div>
   );
 }
 
-export default Homepage;
+export default Dashboard;

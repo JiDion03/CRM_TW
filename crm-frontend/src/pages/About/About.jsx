@@ -1,13 +1,14 @@
 import React from "react";
-import "./homepage.css";
+import "./about.css";
 import MyNavbar from "../../components/MyNavbar/MyNavbar";
 
-function Homepage() {
+function About() {
   return (
     <div>
       <MyNavbar></MyNavbar>
+      <h1>About</h1>
     </div>
   );
 }
 
-export default Homepage;
+export default About;
